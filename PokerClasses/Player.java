@@ -58,7 +58,7 @@ class Player {
 	}
 
 	public void DisplayCards() {
-		System.out.print("\n" + getName() + ": ");
+		System.out.print("\n-------------------------------------------------------------------------------\n" + getName() + ": ");
 		for (Card c : cards) {
 			System.out.print(c.getCardType() + ": " + c.getCardName() + "\t\t");
 		}
